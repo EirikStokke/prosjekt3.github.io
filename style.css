@@ -1,0 +1,91 @@
+header {
+  background-color: #ff4814;
+  position: absolute;
+  width: 100vw;
+  min-width: 1290px;
+  min-height: 200px;
+  top: 0%;
+  left: 0%;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  min-width: 1290px;
+}
+
+.container {
+  margin-left: auto;
+  top: 1px;
+}
+
+.ghost {
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+.shadowFrame {
+  width: 130px;
+  margin-top: 15px;
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+  ellipse {
+    transform-origin: center center;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 90%;
+    margin: 0 5%;
+  }
+  50% {
+    width: 60%;
+    margin: 0 18%;
+  }
+  100% {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+.navigasjon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-width: 1300px;
+}
+
+.navigasjon a { 
+  background-color: rgb(173, 165, 165);
+  margin: 50px;
+  padding: 25px;
+  text-decoration: none;
+  color: rgb(8, 2, 3);
+  border-radius: 10%;
+  font-size: 20px;
+  font-style: italic;
+  width: 250px;
+  text-align: center;
+}
+
+
+h1 {
+  color: white;
+  font-size: 110px;
+  margin-left: 30px;
+}
+
+button { will-change: auto;
+
+
+}
