@@ -89,3 +89,24 @@ button { will-change: auto;
 
 
 }
+
+main {
+  margin-bottom: 1000px; 
+  margin-top: 300px; 
+  display: flex; 
+  flex-direction: column;
+}
+
+.bilde-container {
+  margin-left: auto;
+  margin-top: 50px; 
+  margin-right: 50px; 
+  display: flex; 
+  flex-direction: column;
+}
+
+.kjelde-link {
+  text-decoration: none;
+  margin-left: 10px;
+  font-style: italic;
+}
