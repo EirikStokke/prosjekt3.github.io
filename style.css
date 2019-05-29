@@ -85,8 +85,7 @@ h1 {
   margin-left: 30px;
 }
 
-button { will-change: auto;
-
+button { will-change: auto; hover 
 
 }
 
@@ -109,4 +108,19 @@ main {
   text-decoration: none;
   margin-left: 10px;
   font-style: italic;
+}
+
+img { border-radius: 5%}
+
+section>a:hover {
+  color: black;
+  background-color: gray;
+
+}
+
+.section1 { margin-top: 300px;}
+
+h2 { 
+  color: white; background-color: orangered;
+    text-align: center; border-radius: 5px;"
 }
