@@ -2,22 +2,20 @@ header {
   background-color: #ff4814;
   position: absolute;
   width: 100vw;
-  min-width: 1290px;
-  min-height: 200px;
+  min-width: 1300px;
+  height: 200px;
   top: 0%;
   left: 0%;
-  
   display: flex;
   flex-direction: row;
 }
 
 body {
-  min-width: 1290px;
+  width: 100vw;
 }
 
 .container {
   margin-left: auto;
-  top: 1px;
 }
 
 .ghost {
@@ -36,9 +34,10 @@ body {
 .shadow {
   animation: shrink 3s ease-out infinite;
   transform-origin: center center;
-  ellipse {
-    transform-origin: center center;
-  }
+  
+}
+ellipse {
+  transform-origin: center center;
 }
 
 @keyframes shrink {
@@ -63,12 +62,17 @@ body {
   justify-content: center;
   width: 100vw;
   min-width: 1300px;
+  position: relative;
+  left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .navigasjon a { 
   background-color: rgb(173, 165, 165);
-  margin: 50px;
-  padding: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px; 
   text-decoration: none;
   color: rgb(8, 2, 3);
   border-radius: 10%;
@@ -123,4 +127,8 @@ section>a:hover {
 h2 { 
   color: white; background-color: orangered;
     text-align: center; border-radius: 5px;"
+}
+
+video { 
+margin-left: 650px; margin-top: 10%;
 }
